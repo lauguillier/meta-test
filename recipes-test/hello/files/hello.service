@@ -3,7 +3,7 @@ Description=Hello service
 After=multi-user.target
 
 [Service]
-ExecStart=/usr/bin/hello
+ExecStart=/usr/bin/hello > /dev/kmsg
 Type=simple
 
 [Install]
