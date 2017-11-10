@@ -10,7 +10,7 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 inherit systemd
 
 SRC_URI = "file://${THISDIR}/files/helloworld.c \
-           file://${THISDIR}/files/hello.service \
+           file://hello.service \
 "
 
 S = "${WORKDIR}"
